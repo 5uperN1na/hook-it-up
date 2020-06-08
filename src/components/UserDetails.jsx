@@ -71,9 +71,9 @@ function UserDetails(props) {
 
                        <h5 className="text-align-right"><u>Company</u></h5>
 
-                        {data.company && <p>{data.company.name}</p>}
-                        {data.company && <p>{data.company.catchPhrase}</p>}
-                        {data.company && <p>{data.company.bs}</p>}
+                       <h6 class="card-subtitle  text-muted">  {data.company && <p>{data.company.name}</p>}</h6>
+                       <h6 class="card-subtitle  text-muted">  {data.company && <p>{data.company.catchPhrase}</p>}</h6>
+                       <h6 class="card-subtitle  text-muted">  {data.company && <p>{data.company.bs}</p>}</h6>
 
                     
                     </div>
